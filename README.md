@@ -51,38 +51,57 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 
 ### PROGRAM 
-/*
+```
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:Akkireddy Ruchitha Reddy 
+RegisterNumber:212221230004  
+```
 
+### UP COUNTER:
+```
+module uc(input CLK,input reset,output[0:3]counter);
+reg[0:3]counter_up;
+always@(posedge CLK or posedge reset)
+begin 
+if(reset)
+counter_up<=4'd0;
+else
+counter_up<=counter_up+4'd1;
+end
+assign counter=counter_up;
+endmodule
+```
+### DOWN COUNTER:
+```
+module dc(input CLK,input reset,output[0:3]counter);
+reg[0:3]counter_down;
+always@(posedge CLK or posedge reset)
+begin 
+if(reset)
+counter_down<=4'd0;
+else
+counter_down<=counter_down -4'd1;
+end
+assign counter=counter_down;
+endmodule
+```
+### OUTPUT:
+### RTL LOGIC UP COUNTER:  
+![output](https://github.com/RuchithaReddy28/Exp-7-Synchornous-counters-/blob/main/op%20uc.png?raw=true)
 
+### TIMING DIGRAMS FOR UP COUNTER: 
+![output](https://github.com/RuchithaReddy28/Exp-7-Synchornous-counters-/blob/main/uc%20timimg.png?raw=true)
 
+### TRUTH TABLE FOR UP COUNTER:
+![output](?raw=true)
 
+### RTL LOGIC DOWN COUNTER:
+![output](https://github.com/RuchithaReddy28/Exp-7-Synchornous-counters-/blob/main/op%20dc.png?raw=true)
 
+### TIMING DIGRAMS FOR DOWN COUNTER:
+![output](https://github.com/RuchithaReddy28/Exp-7-Synchornous-counters-/blob/main/timing%20dc.png?raw=true)
 
-### RTL LOGIC UP COUNTER AND DOWN COUNTER  
+### TRUTH TABLE FOR DOWN COUNTER:
+![output](?raw=true)
 
-
-
-
-
-
-
-
-
-### TIMING DIGRAMS FOR COUNTER  
-
-
-
-
-
-### TRUTH TABLE 
-
-
-
-
-
-
-### RESULTS 
+### RESULTS:
