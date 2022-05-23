@@ -106,7 +106,7 @@ endmodule
 ![output](https://github.com/RuchithaReddy28/Exp-7-Synchornous-counters-/blob/main/uc%20timimg.png?raw=true)
 
 ### TRUTH TABLE FOR UP COUNTER:
-![output](?raw=true)
+![output](up.jpg)
 
 ### RTL LOGIC DOWN COUNTER:
 ![output](https://github.com/RuchithaReddy28/Exp-7-Synchornous-counters-/blob/main/op%20dc.png?raw=true)
