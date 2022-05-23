@@ -115,7 +115,7 @@ endmodule
 ![output](https://github.com/RuchithaReddy28/Exp-7-Synchornous-counters-/blob/main/timing%20dc.png?raw=true)
 
 ### TRUTH TABLE FOR DOWN COUNTER:
-![output](?raw=true)
+![output](down.jpg)
 
 ### RESULTS:
 Hence the Four bit Up counter and Down counter is implemented successfully and its functionality is validated.
