@@ -66,7 +66,7 @@ Get the timing diagram and RTL realization diagram for respective Counters. */
 ### PROGRAM 
 ```
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by:Akkireddy Ruchitha Reddy 
+Developed by: pragatheesvaran AB
 RegisterNumber:212221240039  
 ```
 
